@@ -12,6 +12,8 @@
 		C01E963A223F445D009F8ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01E9638223F445D009F8ECB /* LaunchScreen.storyboard */; };
 		C01E964722407353009F8ECB /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E964622407353009F8ECB /* CustomNavigationController.swift */; };
 		C01E9649224073D6009F8ECB /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E9648224073D6009F8ECB /* CoursesController.swift */; };
+		C01E964B22407C87009F8ECB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E964A22407C87009F8ECB /* DataService.swift */; };
+		C01E964D22407CBE009F8ECB /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E964C22407CBE009F8ECB /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C01E963B223F445D009F8ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01E964622407353009F8ECB /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		C01E9648224073D6009F8ECB /* CoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
+		C01E964A22407C87009F8ECB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C01E964C22407CBE009F8ECB /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		C01E9641223F4558009F8ECB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C01E964C22407CBE009F8ECB /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 		C01E9645223F457E009F8ECB /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				C01E964A22407C87009F8ECB /* DataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			files = (
 				C01E9649224073D6009F8ECB /* CoursesController.swift in Sources */,
 				C01E964722407353009F8ECB /* CustomNavigationController.swift in Sources */,
+				C01E964D22407CBE009F8ECB /* Course.swift in Sources */,
 				C01E9630223F4459009F8ECB /* AppDelegate.swift in Sources */,
+				C01E964B22407C87009F8ECB /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
