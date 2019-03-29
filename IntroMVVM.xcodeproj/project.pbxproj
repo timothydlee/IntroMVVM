@@ -14,6 +14,8 @@
 		C01E9649224073D6009F8ECB /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E9648224073D6009F8ECB /* CoursesController.swift */; };
 		C01E964B22407C87009F8ECB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E964A22407C87009F8ECB /* DataService.swift */; };
 		C01E964D22407CBE009F8ECB /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E964C22407CBE009F8ECB /* Course.swift */; };
+		C09E6B7A224DBE2B00460F4D /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09E6B79224DBE2B00460F4D /* CoursesTableViewController.swift */; };
+		C09E6B7C224DBE8100460F4D /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09E6B7B224DBE8100460F4D /* CourseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C01E9648224073D6009F8ECB /* CoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
 		C01E964A22407C87009F8ECB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		C01E964C22407CBE009F8ECB /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C09E6B79224DBE2B00460F4D /* CoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
+		C09E6B7B224DBE8100460F4D /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,9 @@
 		C01E962E223F4459009F8ECB /* IntroMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				C01E9643223F4568009F8ECB /* Controller */,
 				C01E9641223F4558009F8ECB /* Model */,
 				C01E9642223F4563009F8ECB /* View */,
-				C01E9643223F4568009F8ECB /* Controller */,
 				C01E9644223F4575009F8ECB /* ViewModel */,
 				C01E9645223F457E009F8ECB /* Service */,
 				C01E962F223F4459009F8ECB /* AppDelegate.swift */,
@@ -82,6 +86,7 @@
 		C01E9642223F4563009F8ECB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C09E6B79224DBE2B00460F4D /* CoursesTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 		C01E9644223F4575009F8ECB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C09E6B7B224DBE8100460F4D /* CourseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -182,8 +188,10 @@
 			files = (
 				C01E9649224073D6009F8ECB /* CoursesController.swift in Sources */,
 				C01E964722407353009F8ECB /* CustomNavigationController.swift in Sources */,
+				C09E6B7C224DBE8100460F4D /* CourseViewModel.swift in Sources */,
 				C01E964D22407CBE009F8ECB /* Course.swift in Sources */,
 				C01E9630223F4459009F8ECB /* AppDelegate.swift in Sources */,
+				C09E6B7A224DBE2B00460F4D /* CoursesTableViewController.swift in Sources */,
 				C01E964B22407C87009F8ECB /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
